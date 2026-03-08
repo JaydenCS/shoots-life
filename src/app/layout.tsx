@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   title: 'shoots.life',
   description: 'One photo. One day. Just for you.',
   manifest: '/manifest.json',
+  openGraph: {
+    title: 'shoots.life',
+    description: 'One photo. One day. Just for you.',
+    url: 'https://shoots.life',
+    siteName: 'shoots.life',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'shoots.life' }],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'shoots.life',
+    description: 'One photo. One day. Just for you.',
+    images: ['/og-image.png'],
+  },
   icons: {
     icon: [
       { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
