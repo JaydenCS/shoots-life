@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 80" width="520" height="80">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- wordmark — two weights: "shoots" regular · ".life" light -->
+  <text
+    x="0" y="62"
+    font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+    font-size="62"
+    font-weight="400"
+    fill="#1A1A1A"
+    letter-spacing="-1"
+  >shoots</text>
+  <text
+    x="266" y="62"
+    font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+    font-size="62"
+    font-weight="300"
+    fill="#D4956A"
+    letter-spacing="-1"
+  >.life</text>
+</svg>
