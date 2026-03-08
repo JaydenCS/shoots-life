@@ -34,7 +34,7 @@ function Nav() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-10 py-5 flex items-center justify-between transition-all duration-500 ${scrolled ? 'bg-paper/85 backdrop-blur-md' : 'bg-transparent'}`}>
-      <Link href="/" className="font-serif text-sm text-ink tracking-wide">shoots.life</Link>
+      <Link href="/" className="font-serif text-xl text-ink tracking-wide">shoots.life</Link>
       <Link href="/login" className="font-sans text-[11px] text-ink/50 hover:text-ink transition-colors tracking-widest uppercase">Sign in</Link>
     </nav>
   )
